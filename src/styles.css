@@ -4,6 +4,11 @@
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
+.img-fluid{
+  border-radius: 10px 15px ;
+  max-width: 100%;
+  height: auto;
+}
 .navbar{
   background-color: var(--branding-color);
 }
@@ -26,6 +31,8 @@ h6 {
 h1 {
   font-size: 96px;
   line-height: 1.5;
+  padding: 10px;
+  
 }
 
 h2 {
@@ -64,7 +71,7 @@ button{
   border-radius: 10px;
   color: white;
   font-size: 18px;
-  line-height: 27px;
+  line-height: 20px;
   padding: 15px 30px;
 }
 
@@ -86,6 +93,7 @@ button:hover {
   h1 {
     font-size: 44px;
     line-height: 2;
+    
   }
 
   h2 {
@@ -100,4 +108,75 @@ button:hover {
     padding: 0;
     text-align: center;
   }
+}
+.about-section {
+  text-align: center;
+  padding: 0;
+}
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.about-section-content {
+  margin: 30px;
+}
+
+.content{
+  text-align: center;
+}
+.my-image{
+  border-radius: 40px;
+
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+  justify-content: center;
+  
+  
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
 }
