@@ -180,3 +180,6 @@ footer .social-links a:hover {
   color: white;
   background: var(--branding-color);
 }
+a button{
+  border-radius: 10px;
+}
